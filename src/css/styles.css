@@ -81,3 +81,8 @@ p {
   margin-inline-end: 0px;
   unicode-bidi: isolate;
 }
+
+textarea {
+  width: 320px;
+  height: 50px;
+}
