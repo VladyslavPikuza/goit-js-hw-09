@@ -8,3 +8,22 @@
 @import url('./reset.css');
 @import url('./1-gallery.css');
 @import url('./2-form.css');
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-item {
+  flex-basis: calc(33.333% - 10px);
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
