@@ -62,7 +62,9 @@ form input {
       border-radius: 4px;
       
 }
-
+input {
+  width: 320px;
+}
 .feedback-form {
 
   display: flex;
@@ -84,5 +86,11 @@ p {
 
 textarea {
   width: 320px;
-  height: 50px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-bottom: 16px;
 }
